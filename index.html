@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Personal Website</title>
+    <title>Steve Passarelli</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="script.js"></script>
+    <header>
+        <h1>Steve Passarelli</h1>
+
+        <nav> 
+            <a href="https://www.linkedin.com/in/spassarelli/">LinkedIn</a> <a href="https://www.instagram.com/passarelli/">Portfolio</a>
+    </header>
+
+    <section id="ski-image">
+        <figure>
+          <img src="/Users/stevepassarelli/Desktop/Screen Shot 2023-01-01 at 1.56.50 AM.png" alt="colorado ski" title="Backcountry">
+          <figcaption>Imperial hike, Summit County (Pictured: not me) </figcaption>
+        </figure>
+    <p>Hey! My name is Steve Passarelli. I was born on December 21st, 1992 in Nashua New Hampshire. I grew up in New Hampshire, and attended college at Saint Michael's College in Burlington Vermont. After living in Burlington for 5 years, I moved to Boulder, Colorado. Having lived here for 6 years, I have worked a variety of jobs, from HR, to Financial Accounting, and Sales. I spend my time here skiing, biking and rock climbing. </p>
+    <p>One thing most people don't know is I initially moved out here to be a photographer. Want to see my work? Check out my portfolio!</p>
+    
+    <p>Click the button below to learn a fun fact!</p>
+    <button onclick="myFunction()">Fun facts in here!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "The fun fact is this button does nothing.";
+}
+</script>
+    
   </body>
 </html>
